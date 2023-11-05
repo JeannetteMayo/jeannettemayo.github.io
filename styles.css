@@ -1,0 +1,103 @@
+/* Reset some default styles */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white; /* Set the navigation bar to white */
+    color: #000; /* Set text color to black */
+    font-family: 'Average', sans-serif; /* Set the font to 'Average' */
+    padding: 10px 20px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right a {
+    text-decoration: none;
+    color: #000; /* Set link text color to black */
+    margin: 0 10px;
+  }
+  
+  /* Center the content with padding */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px; /* Add 50px padding to the left and right */
+  }
+  
+  /* Style the main content */
+  .main-content {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+    height: 100%; /* Make both columns equal height */
+    box-sizing: border-box; /* Include padding in the total height */
+  }
+
+  
+  .right-column img, .left-column img, .image-below img {
+    width: 100%;
+    height: 100%; /* Ensure the image takes the full height of the right column */
+    object-fit: cover; /* Prevent image distortion while covering the entire space */
+  }
+
+  /* Style the main content */
+.main-content {
+    display: flex;
+    padding: 20px;
+  }
+  
+  /* Left column */
+  .left-column {
+    flex: 1;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Right column */
+  .right-column {
+    flex: 1;
+    padding: 30px;
+  }
+
+
+/* Style the ZFF Content within the left column */
+.zff-profile {
+    margin-top: 33px; /* Add margin to create space between zff-profile and the section above it */
+    text-align: center;
+    border: .75px solid #000; /* Add a 2px black border around zff-profile */
+    padding: 0px; /* Add padding to create space between the content and the border */
+    padding-bottom: 5px;
+  }
+  
+  .zff-profile a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .zff-profile img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .zff-profile span {
+    margin-top: 10px;
+  }
+
+  .about-me-bio {
+    padding-top: 20px;
+  }
+  
+  
