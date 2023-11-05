@@ -1,5 +1,5 @@
 # personalWebsite
-Jeannette's personal website
+Jeannette's personal website https://jeannettemayo.github.io/
 
-![image](https://github.com/JeannetteMayo/personalWebsite/assets/65695953/b2da7ffb-84e4-4e18-9fed-31b38bbd75e1)
 
+<img width="584" alt="Preview" src="https://github.com/JeannetteMayo/jeannettemayo.github.io/assets/65695953/52d9e2d8-b28b-4629-9e61-e458754a498d">
