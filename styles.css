@@ -80,7 +80,7 @@ body, h1, h2, p, form {
   /* Right column */
   .right-column {
     flex: 1;
-    padding: 20px;
+    padding: 10px;
   }
 
 
