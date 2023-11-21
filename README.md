@@ -3,4 +3,4 @@ Jeannette's personal website https://jeannettemayo.github.io/
 
 
 
-![personalSite](https://github.com/JeannetteMayo/jeannettemayo.github.io/assets/65695953/002756ba-3f05-46c0-a28e-79659f81927a)
+![sitePreviewFinal](https://github.com/JeannetteMayo/jeannettemayo.github.io/assets/65695953/39396c53-6c1b-4259-9eb7-26f34334cb8d)
