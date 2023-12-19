@@ -81,7 +81,7 @@ body, h1, h2, p, form {
   .right-column {
     flex: 1;
     padding: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 
 
