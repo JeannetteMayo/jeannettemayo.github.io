@@ -81,6 +81,7 @@ body, h1, h2, p, form {
   .right-column {
     flex: 1;
     padding: 30px;
+    padding-bottom: 10px;
   }
 
 
@@ -116,19 +117,58 @@ body, h1, h2, p, form {
   }
   
   
-  /* SIZING FOR DIFFERENT SCREENS */
-  /* Media query for small screens */
-  @media screen and (max-width: 768px) {
-    footer {
-      padding: 10px;
-      font-size: 14px;
-    }
+/* SIZING FOR DIFFERENT SCREENS */
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
   }
-  
-  /* Media query for larger screens */
-  @media screen and (min-width: 1200px) {
-    footer {
-      padding: 30px;
-      font-size: 18px;
-    }
+
+  .header-right {
+    margin-top: 10px;
+    flex-direction: column;
+    text-align: center;
   }
+
+  .header-right a {
+    margin: 5px 0;
+  }
+
+  .container {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+
+  .main-content {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    flex: 1;
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .right-column img,
+  .left-column img,
+  .image-below img {
+    width: 100%;
+    height: auto;
+  }
+
+  .zff-profile {
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+  }
+
+  .about-me-bio {
+    padding-top: 10px;
+  }
+
+  .image-below {
+    padding-top: 20px;
+  }
+}

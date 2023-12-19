@@ -64,3 +64,51 @@ body, h1, h2, p, form {
   input[type="submit"]:hover {
     background-color: #555;
   }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .header-right {
+    margin-top: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-right a {
+    margin: 5px 0;
+  }
+
+  .container {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+
+  form {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  h2 {
+    padding-top: 50px; /* Adjust padding for smaller screens */
+    padding-bottom: 10px; /* Adjust padding for smaller screens */
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  input[type="text"],
+  textarea {
+    width: 100%; /* Make input fields and textarea full width */
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Include padding in the total width */
+  }
+
+  input[type="submit"] {
+    width: 100%; /* Make the submit button full width */
+    max-width: 100%;
+  }
+}
+  
