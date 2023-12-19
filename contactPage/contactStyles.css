@@ -1,0 +1,82 @@
+
+/* CSS styling for the header bar */
+
+  /* Style the header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white; /* Set the navigation bar to white */
+    color: #000; /* Set text color to black */
+    font-family: 'Average', sans-serif; /* Set the font to 'Average' */
+    padding: 10px 20px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right a {
+    text-decoration: none;
+    color: #000; /* Set link text color to black */
+    margin: 0 10px;
+  }
+
+  /* Contact Form */
+  section {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the text vertically and horizontally */
+    justify-content: center;
+  }
+  
+  /* Additional styling for the contact form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* SIZING FOR DIFFERENT SCREENS */
+  /* Media query for small screens */
+  @media screen and (max-width: 768px) {
+    footer {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media screen and (min-width: 1200px) {
+    footer {
+      padding: 30px;
+      font-size: 18px;
+    }
+  }
